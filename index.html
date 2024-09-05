@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biker Zone</title>
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/1fb3628ce7.js" crossorigin="anonymous"></script>
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -68,16 +70,16 @@
         <section class="text-center">
             <h1 class="text-[3rem] font-semibold">Fetured Bikes In This Year</h1>
             <p class="text-[#E76F51] text-[14px]">Best bike collection</p>
-            <div class="lg:flex justify-between mt-12">
-            <img src="images/others/feature-bike.png" class="w-3/12" alt="">
-            <img src="images/others/feature-bike.png" class="w-3/12" alt="">
-            <img src="images/others/feature-bike.png" class="w-3/12" alt="">
+            <div class="lg:flex lg:justify-between mt-12 w-3/4 mx-auto">
+            <img src="images/others/feature-bike.png" class="lg:w-3/12 mb-12" alt="">
+            <img src="images/others/feature-bike.png" class="lg:w-3/12 mb-12" alt="">
+            <img src="images/others/feature-bike.png" class="lg:w-3/12 mb-12" alt="">
             </div>
         </section>
         <!-- latest News -->
          <section class="mt-24">
             <h1 class="text-[3rem] font-semibold text-center">Latest News</h1>
-            <div class="flex gap-5">
+            <div class="lg:flex gap-5">
                 
                     <div class="card  w-96 shadow-xl border-[1px]">
                         <figure>
@@ -120,7 +122,112 @@
             </div>
          </section>
          <!-- Happy Clients says -->
+          <section class="mt-24">
+            <h1 class="text-[3rem] font-semibold text-center">Happy <span class="text-[#E76F51]">Clients Says</span></h1>
+            <div class="lg:flex gap-6 mt-5">
+              <div class="border-[1px] text-center p-4 rounded-md">
+                <div class="avatar">
+                  <div class="w-28 rounded-full">
+                    <img src="images/others/user-1.png" />
+                  </div>
+                </div>
+                <p>Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <h4 class="text-[#23A6F0]">Regina Miles</h4>
+                  <p class="text-[#252B42]">Regina Miles</p>
+              </div>
+
+              <div class="border-[1px] text-center p-4 rounded-md">
+                <div class="avatar">
+                  <div class="w-28 rounded-full">
+                    <img src="images/others/user-1.png" />
+                  </div>
+                </div>
+                <p>Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <h4 class="text-[#23A6F0]">Regina Miles</h4>
+                  <p class="text-[#252B42]">Regina Miles</p>
+              </div>
+
+              <div class="border-[1px] text-center p-4 rounded-md">
+                <div class="avatar">
+                  <div class="w-28 rounded-full">
+                    <img src="images/others/user-1.png" />
+                  </div>
+                </div>
+                <p>Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <h4 class="text-[#23A6F0]">Regina Miles</h4>
+                  <p class="text-[#252B42]">Regina Miles</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- frequently asked question -->
+           <section class="mt-24">
+            <h1 class="text-[3rem] font-semibold text-center">Frequently Asked <span class="text-[#E76F51]">Questions</span></h1>
+            <div class="lg:flex p-6 gap-12 items-center">
+              <div class="w-1/3">
+                <img src="images/others/faq.png" class="">
+              </div>
+              <div class="w-2/3">
+                <div class="collapse collapse-arrow  mb-3 border-[1px] ">
+                  <input type="radio" name="my-accordion-2" checked="checked" />
+                  <div class="collapse-title text-xl font-medium">What are the most important things I should
+                    know about riding a bike?</div>
+                  <div class="collapse-content">
+                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow mb-3 border-[1px]">
+                  <input type="radio" name="my-accordion-2" />
+                  <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+                    new one?</div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow mb-3 border-[1px]">
+                  <input type="radio" name="my-accordion-2" />
+                  <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+                </div>
+                <div class="collapse collapse-arrow mb-3 border-[1px]">
+                  <input type="radio" name="my-accordion-2" />
+                  <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                  <div class="collapse-content">
+                    <p>hello</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </section>
     </main>
-    <footer></footer>
+    <footer>
+      
+    </footer>
 </body>
 </html>
